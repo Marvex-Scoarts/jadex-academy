@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JADEX ACADEMY | Modern Online Learning &amp; Tech Skills</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">JADEX ACADEMY</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#instructors">Instructors</a></li>
+        <li><a href="#dashboard" class="dash-nav-btn">Student Dashboard (0)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-badge">FUTURE-READY DIGITAL SKILLS</span>
+      <h1>Master Coding, Design &amp; Tech at Your Own Pace</h1>
+      <p>Hands-on video bootcamps, real-world portfolio projects, and mentor-led tracks crafted for ambitious creators.</p>
+      <div class="hero-actions">
+        <a href="#courses" class="btn primary-btn">Browse Courses</a>
+        <a href="#dashboard" class="btn secondary-btn">View My Progress</a>
+      </div>
+      <div class="hero-metrics">
+        <div><strong>15,000+</strong><span>Active Learners</span></div>
+        <div><strong>45+</strong><span>Practical Bootcamps</span></div>
+        <div><strong>4.9 / 5</strong><span>Student Rating</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learning Categories Section -->
+  <section id="categories" class="categories-section">
+    <div class="section-header">
+      <span class="sub-tag">EXPLORE TRACKS</span>
+      <h2>Learning Categories</h2>
+    </div>
+    <div class="categories-grid">
+      <div class="category-pill">
+        <h3>Web Development</h3>
+        <p>HTML5, CSS3, JavaScript &amp; Responsive UI</p>
+      </div>
+      <div class="category-pill">
+        <h3>Backend &amp; Python</h3>
+        <p>Python, Django, PHP &amp; APIs</p>
+      </div>
+      <div class="category-pill">
+        <h3>UI/UX &amp; Branding</h3>
+        <p>Color Theory, Typography &amp; Figma</p>
+      </div>
+      <div class="category-pill">
+        <h3>Cloud &amp; Git</h3>
+        <p>GitHub Workflows &amp; Live Deployment</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Courses Section -->
+  <section id="courses" class="courses-section">
+    <div class="section-header">
+      <span class="sub-tag">POPULAR BOOTCAMPS</span>
+      <h2>Featured Courses</h2>
+      <p>Project-based courses designed to take you from beginner to deployed creator</p>
+    </div>
+
+    <div class="courses-grid">
+      <!-- Course 1 -->
+      <article class="course-card">
+        <div class="course-banner banner-1">
+          <span class="level-tag">BEGINNER FRIENDLY</span>
+          <span class="lessons-tag">24 Lessons</span>
+        </div>
+        <div class="course-body">
+          <h3>Modern Frontend Web Studio</h3>
+          <p class="instructor-name">By Remmy Scoarts &bull; Senior UI Engineer</p>
+          <p class="course-desc">Build luxury storefronts, streaming UIs, and animated portfolios from scratch using HTML5, CSS3, and JavaScript.</p>
+          <div class="course-footer">
+            <span class="course-price">Free</span>
+            <button class="btn enroll-btn" data-course="Modern Frontend Web Studio" data-lessons="24">Enroll Now</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Course 2 -->
+      <article class="course-card">
+        <div class="course-banner banner-2">
+          <span class="level-tag">INTERMEDIATE</span>
+          <span class="lessons-tag">32 Lessons</span>
+        </div>
+        <div class="course-body">
+          <h3>Python &amp; Django Full-Stack</h3>
+          <p class="instructor-name">By Jadinice Scoarts &bull; Backend Architect</p>
+          <p class="course-desc">Master Python fundamentals, database models, user authentication, and scalable web apps with Django.</p>
+          <div class="course-footer">
+            <span class="course-price">$49</span>
+            <button class="btn enroll-btn" data-course="Python & Django Full-Stack" data-lessons="32">Enroll Now</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Course 3 -->
+      <article class="course-card">
+        <div class="course-banner banner-3">
+          <span class="level-tag">ALL LEVELS</span>
+          <span class="lessons-tag">18 Lessons</span>
+        </div>
+        <div class="course-body">
+          <h3>Editorial UI/UX &amp; Color Mastery</h3>
+          <p class="instructor-name">By Maxwell Obianyi &bull; Creative Director</p>
+          <p class="course-desc">Learn how to pair luxury color palettes, craft SVG favicons, and design high-converting digital brands.</p>
+          <div class="course-footer">
+            <span class="course-price">$39</span>
+            <button class="btn enroll-btn" data-course="Editorial UI/UX & Color Mastery" data-lessons="18">Enroll Now</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Course 4 -->
+      <article class="course-card">
+        <div class="course-banner banner-4">
+          <span class="level-tag">PRACTICAL</span>
+          <span class="lessons-tag">20 Lessons</span>
+        </div>
+        <div class="course-body">
+          <h3>Dynamic PHP &amp; Web Forms</h3>
+          <p class="instructor-name">By Marvex Scoarts &bull; Full-Stack Developer</p>
+          <p class="course-desc">Connect reservation forms, customer dashboards, and dynamic server scripts with modern PHP.</p>
+          <div class="course-footer">
+            <span class="course-price">$45</span>
+            <button class="btn enroll-btn" data-course="Dynamic PHP & Web Forms" data-lessons="20">Enroll Now</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Instructor Profiles Section -->
+  <section id="instructors" class="instructors-section">
+    <div class="section-header">
+      <span class="sub-tag">LEARN FROM THE BEST</span>
+      <h2>Meet Your Instructors</h2>
+    </div>
+    <div class="instructors-grid">
+      <div class="instructor-card">
+        <div class="instructor-avatar">MS</div>
+        <h3>Marvex Scoarts</h3>
+        <span class="role">Frontend &amp; CSS Animation Lead</span>
+        <p>8+ years crafting interactive web interfaces and mentoring aspiring developers across Africa and Europe.</p>
+      </div>
+      <div class="instructor-card">
+        <div class="instructor-avatar">RS</div>
+        <h3>Remmy Scoarts</h3>
+        <span class="role">Python &amp; Django Specialist</span>
+        <p>Passionate about clean server architecture, API design, and helping beginners conquer backend coding.</p>
+      </div>
+      <div class="instructor-card">
+        <div class="instructor-avatar">MO</div>
+        <h3>Maxwell Obianyi</h3>
+        <span class="role">Brand &amp; Visual Systems Designer</span>
+        <p>Specializes in editorial typography, modern color theory, and memorable digital product design.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Student Learning Dashboard Section -->
+  <section id="dashboard" class="dashboard-section">
+    <div class="section-header">
+      <span class="sub-tag">YOUR LEARNING WORKSPACE</span>
+      <h2>Student Dashboard</h2>
+      <p>Track your enrolled courses, complete lessons, and watch your progress grow</p>
+    </div>
+
+    <div class="dashboard-panel">
+      <div class="dashboard-summary">
+        <div class="dash-stat">
+          <h4 id="enrolledCount">0</h4>
+          <p>Enrolled Courses</p>
+        </div>
+        <div class="dash-stat">
+          <h4 id="completedLessons">0</h4>
+          <p>Lessons Completed</p>
+        </div>
+        <div class="dash-stat">
+          <h4 id="overallProgress">0%</h4>
+          <p>Overall Mastery</p>
+        </div>
+      </div>
+
+      <div id="enrolledCoursesList" class="enrolled-list">
+        <p class="empty-dash-msg">You haven't enrolled in any courses yet. Click <strong>"Enroll Now"</strong> on any course above to add it to your dashboard!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 JADEX ACADEMY. Empowering the Next Generation of Creators.</p>
+  </footer>
+
+<script src="script.js"></script>  
+</body>
+</html>
